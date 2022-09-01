@@ -1,0 +1,21 @@
+
+public class View {
+
+	public static void main(String[] args) {
+     int [] vetor1 = {89, 54, 18, 71, 93, 45, 19, 14, 99, 2, 27, 3, 58, 91, 75};
+     int [] vetor2 = {12, 13, 14, 15, 51, 53, 57, 25, 26, 27, 90};
+     int [] vetor3 = {99, 98, 97, 96, 95, 94, 93, 92, 91};
+     SortsController control = new SortsController();
+     control.bubbleSort(vetor1);
+     
+     System.out.println("");
+     System.out.println("=========================");
+     for (int valor :vetor1) {
+	     System.out.println(valor+ " ");
+		}
+     System.out.println("");
+     System.out.println("=========================");
+
+	}
+
+}
